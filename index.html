@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>King's Store</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/SSC_Napoli_2007.ico" type="image/x-icon" />
+
+
+    <!-- Font Lobster-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Prompt:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <!-- Css aggiunto-->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+   
+    <!-- Header -->
+    <header class="sticky-top bg-white">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md bg-link navbar-light">
+
+            <!-- Container wrapper -->
+            <div class="container-fluid w-100">
+        
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="index.html"><span class="badge bg-dark lobster">King's Store</span></a>
+        
+                <!-- Toggle button -->
+                <button class="navbar-toggler"
+                    type="button" 
+                    style="background-color: lightgrey;"
+                    data-mdb-toggle="collapse" 
+                    data-mdb-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex me-auto mb-2 mb-lg-0 ">
+
+                        <!-- Link -->
+                        <li class="nav-item ">
+                            <a class="nav-link active lobster " href="#">Donna</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active lobster" href="#">Uomo</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active lobster" href="#">Marche</a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link active lobster" href="#">About</a>
+                      </li>
+
+                    </ul>
+            
+                    <!-- Search -->
+                    <form class="w-auto">
+                    <input type="search" class="form-control" placeholder="Cerca" aria-label="Search">
+                    </form>
+            
+                </div>
+                
+            </div>
+            
+            <!-- Icons -->
+            <ul class="navbar-nav d-flex flex-row ">
+                <li class="nav-item  me-lg-0 ms-2" >
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+                <li class="nav-item me-lg-0 ms-3">
+                    <a class="nav-link" href="#"><i class="far fa-user"></i></i></a>
+                </li>
+            </ul>
+
+
+        <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    </header>
+
+    <!-- Carosello-->
+    <div class="container-fluid">
+        <!-- Carosello di immagini-->
+        <div id="Carosello" class="carousel slide metà" data-mdb-ride="carousel">
+            <div class="carousel-indicators">
+            <button
+                type="button"
+                data-mdb-target="#Carosello"
+                data-mdb-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+            ></button>
+            <button
+                type="button"
+                data-mdb-target="#Carosello"
+                data-mdb-slide-to="1"
+                aria-label="Slide 2"
+            ></button>
+            <button
+                type="button"
+                data-mdb-target="#Carosello"
+                data-mdb-slide-to="2"
+                aria-label="Slide 3"
+            ></button>
+            </div>
+    
+            <div class="carousel-inner">
+                    <div class="carousel-item active">
+                            <div id="mask" class="mask">
+                                <div class="h-100 d-flex align-items-center justify-content-center">
+                                    <a href="###"><h1 class="text-white mb-0 lobster">Scemo chi legge</h1></a> 
+                                </div>
+                            </div>
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100 metà" alt="Wild Landscape"/>
+                    </div>
+            
+            
+                    <div class="carousel-item" data-mdb-interval="3000">
+                            <div id="mask" class="mask">
+                                <div class="h-100 d-flex align-items-center justify-content-center">
+                                    <a href="###"><h1 class="text-white mb-0 lobster">Scemo chi legge</h1></a> 
+                                </div>
+                            </div>
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100 metà" alt="Camera"/>
+                    </div>
+            
+            
+                    <div class="carousel-item">
+                            <div id="mask" class="mask">
+                                <div class="h-100 d-flex align-items-center justify-content-center">
+                                    <a href="###"><h1 class="text-white mb-0 lobster">Scemo chi legge</h1></a> 
+                                </div>
+                            </div>
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100 metà" alt="Exotic Fruits"/>
+                    </div>
+            </div>
+    
+    
+            <button class="carousel-control-prev " type="button" data-mdb-target="#Carosello" data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+            </button>
+    
+            <button class="carousel-control-next" type="button" data-mdb-target="#Carosello" data-mdb-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="false"></span>
+            </button>
+        </div>
+    </div>
+
+
+    <!-- Griglia collezzione uomo-->
+    <div class="container-fluid pt-4 ">
+      <div class="row ">
+        <div class="col-12 pt-2">
+              <!-- Card -->
+              <a href="#!">
+                <!-- La classe back-men impsta il background-image della card-->
+                <div class="bg-image card shadow-1-strong back-men">
+                  <div class="card-body text-white p-5">
+                    <h5 class="card-title">Collezione Uomo</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's content.
+                    </p>
+                  </div>
+                </div>
+              </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Prodotti 1 -->
+    <div class="container-fluid mt-3">
+        <div class="row gx-1 justify-content-center">
+      
+          <div class="col-lg-2 col-md-6">
+            <a href="#!">
+              <div class="card text-center shadow-none mt-5">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="img/orologio.jpg" class="img-fluid w-50" />
+                  
+                <div class="mask" style="background-color:  rgba(56, 48, 48, 0.452)">
+                
+                </div>
+                  
+              </div>
+              
+                <div class="card-body  p-1">
+                  <h5 class="card-title text-dark lobster" style="font-weight: bold;">Armani - 42069</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+      
+          <div class="col-lg-2 col-md-6">
+            <a href="#!">
+              <div class="card text-center shadow-none mt-5">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="img/orologio.jpg" class="img-fluid w-50" />
+                  
+                <div class="mask" style="background-color:  rgba(56, 48, 48, 0.452)">
+                
+                </div>
+                  
+              </div>
+              
+                <div class="card-body  p-1">
+                  <h5 class="card-title text-dark lobster" style="font-weight: bold;">Armani - 42069</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+      
+          <div class="col-lg-2 col-md-6">
+            <a href="#!">
+              <div class="card text-center shadow-none mt-5">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="img/orologio.jpg" class="img-fluid w-50" />
+                  
+                <div class="mask" style="background-color:  rgba(56, 48, 48, 0.452)">
+                
+                </div>
+                  
+              </div>
+              
+                <div class="card-body  p-1">
+                  <h5 class="card-title text-dark lobster" style="font-weight: bold;">Armani - 42069</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+      
+          <div class="col-lg-2 col-md-6">
+            <a href="#!">
+              <div class="card text-center shadow-none mt-5">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="img/orologio.jpg" class="img-fluid w-50" />
+                  
+                <div class="mask" style="background-color:  rgba(56, 48, 48, 0.452)">
+                
+                </div>
+                  
+              </div>
+              
+                <div class="card-body  p-1">
+                  <h5 class="card-title text-dark lobster" style="font-weight: bold;">Armani - 42069</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+      
+          <div class="col-lg-2 col-md-6">
+            <a href="#!">
+              <div class="card text-center shadow-none mt-5">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="img/orologio.jpg" class="img-fluid w-50" />
+                  
+                <div class="mask" style="background-color:  rgba(56, 48, 48, 0.452)">
+                
+                </div>
+                  
+              </div>
+              
+                <div class="card-body  p-1">
+                  <h5 class="card-title text-dark lobster" style="font-weight: bold;">Armani - 42069</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <a href="#!">
+              <div class="card text-center shadow-none mt-5">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="img/orologio.jpg" class="img-fluid w-50" />
+                  
+                <div class="mask" style="background-color:  rgba(56, 48, 48, 0.452)">
+                
+                </div>
+                  
+              </div>
+              
+                <div class="card-body  p-1">
+                  <h5 class="card-title text-dark lobster" style="font-weight: bold;">Armani - 42069</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+      
+        </div>
+    </div>
+
+    <!-- Bottone "Altri prodotti" 1 -->
+    <div class="d-flex justify-content-center pt-2">
+      <a href="#" ><button type="button" class="btn btn-dark btn-rounded   btn" data-mdb-ripple-color="#ffffff"> Altri Prodotti </button></a>
+    </div>
+    
+    <!-- Griglia collezzione donna-->
+    <div class="container-fluid pt-4 ">
+      <div class="row ">
+        <div class="col-12 pt-2">
+              <!-- Card -->
+              <a href="#!">
+                <!-- La classe back-men impsta il background-image della card-->
+                <div class="bg-image card shadow-1-strong back-men">
+                  <div class="card-body text-white p-5">
+                    <h5 class="card-title">Collezione Donna</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's content.
+                    </p>
+                  </div>
+                </div>
+              </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Prodotti 2 -->
+    <div class="container-fluid mt-3">
+      <div class="row gx-1 justify-content-center">
+    
+        <div class="col-lg-2 col-md-6">
+          <a href="#!">
+            <div class="card text-center shadow-none mt-5">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/orologio.jpg" class="img-fluid w-50" />
+                
+              <div class="mask" style="background-color:  rgba(56, 48, 48, 0.452)">
+              
+              </div>
+                
+            </div>
+            
+              <div class="card-body  p-1">
+                <h5 class="card-title text-dark lobster" style="font-weight: bold;">Armani - 42069</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+    
+        <div class="col-lg-2 col-md-6">
+          <a href="#!">
+            <div class="card text-center shadow-none mt-5">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/orologio.jpg" class="img-fluid w-50" />
+                
+              <div class="mask" style="background-color:  rgba(56, 48, 48, 0.452)">
+              
+              </div>
+                
+            </div>
+            
+              <div class="card-body  p-1">
+                <h5 class="card-title text-dark lobster" style="font-weight: bold;">Armani - 42069</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+    
+        <div class="col-lg-2 col-md-6">
+          <a href="#!">
+            <div class="card text-center shadow-none mt-5">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/orologio.jpg" class="img-fluid w-50" />
+                
+              <div class="mask" style="background-color:  rgba(56, 48, 48, 0.452)">
+              
+              </div>
+                
+            </div>
+            
+              <div class="card-body  p-1">
+                <h5 class="card-title text-dark lobster" style="font-weight: bold;">Armani - 42069</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+    
+        <div class="col-lg-2 col-md-6">
+          <a href="#!">
+            <div class="card text-center shadow-none mt-5">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/orologio.jpg" class="img-fluid w-50" />
+                
+              <div class="mask" style="background-color:  rgba(56, 48, 48, 0.452)">
+              
+              </div>
+                
+            </div>
+            
+              <div class="card-body  p-1">
+                <h5 class="card-title text-dark lobster" style="font-weight: bold;">Armani - 42069</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+    
+        <div class="col-lg-2 col-md-6">
+          <a href="#!">
+            <div class="card text-center shadow-none mt-5">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/orologio.jpg" class="img-fluid w-50" />
+                
+              <div class="mask" style="background-color:  rgba(56, 48, 48, 0.452)">
+              
+              </div>
+                
+            </div>
+            
+              <div class="card-body  p-1">
+                <h5 class="card-title text-dark lobster" style="font-weight: bold;">Armani - 42069</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-2 col-md-6">
+          <a href="#!">
+            <div class="card text-center shadow-none mt-5">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/orologio.jpg" class="img-fluid w-50" />
+                
+              <div class="mask" style="background-color:  rgba(56, 48, 48, 0.452)">
+              
+              </div>
+                
+            </div>
+            
+              <div class="card-body  p-1">
+                <h5 class="card-title text-dark lobster" style="font-weight: bold;">Armani - 42069</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+    
+      </div>
+  </div>
+
+  <!-- Bottone "Altri prodotti" 2 -->
+  <div class="d-flex justify-content-center pt-2">
+    <a href="#" ><button type="button" class="btn btn-dark btn-rounded   btn" data-mdb-ripple-color="#ffffff"> Altri Prodotti </button></a>
+  </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center mt-5">
+      <!-- Grid container -->
+      <div class="container p-4">
+
+
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            distinctio earum repellat quaerat voluptatibus placeat nam,
+            commodi optio pariatur est quia magnam eum harum corrupti dicta,
+            aliquam sequi voluptate quas.
+          </p>
+        </section>
+        <!-- Section: Text -->
+
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>

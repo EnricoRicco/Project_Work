@@ -1,0 +1,18 @@
+Pagine:
+- Home				(index.html)
+- Layout			(layout.html)
+- Pagina Prodotti
+- Pagina Prodotto singolo
+- Carrello
+- Pagamento
+- Area Riservata cliente
+- Visualizza Ordini
+- Modifica Profilo
+- Privacy
+- Accesso Negato
+- 404				(404.html)
+- Login
+- Registrazione
+
+Admin
+- 

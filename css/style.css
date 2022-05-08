@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+/* Ingrandimento del nome del brand nell'header tramite font*/
+.navbar-brand{
+    font-size: 50px;  
+}
+
+/* ingrandimento dei link (Uomo,donna,marche...) nell'header tramite font*/
+.nav-link{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* Classe per il font sottostante*/
+.lobster{
+    font-family: 'Lobster', cursive;
+    font-family: 'Prompt', sans-serif; 
+}
+
+
+/* classe per le immagini nel carosello + carosello(non immagini all'interno)*/
+.metà{
+    height: 45vh;
+}
+
+/* Immagini di background nella sezione "Collezzione Uomo/donna" nella pagina index.html*/
+.back-men{
+    background-image: url('https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp');
+}
+
+.back-women{
+    background-image: url('https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp');
+}
+
+/* Div per far centrare solo il contenuto (utilizzato nel login) */
+.width{
+    width: fit-content;
+}
+
+
+/* Immagine di sfondo della pagina di login */
+.back-login{
+    background-image: url(/img/background-login.png);
+}
+
+
+/* Cambio del colore della checkbox */
+.form-check-input[type=checkbox]:checked {
+    background-color:black;
+    border-color: black;
+  }
+
+.form-check-input:hover::before{
+    background-color: yellow;
+}
