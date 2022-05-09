@@ -14,6 +14,11 @@
     font-weight: bolder;
 }
 
+/* classe per venire sottolineati i link al passaggio del mojuse */
+.underlined:hover{
+    text-decoration: underline;
+}
+
 /* Classe per il font sottostante*/
 .lobster{
     font-family: 'Lobster', cursive;
@@ -35,24 +40,21 @@
     background-image: url('https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp');
 }
 
-/* Div per far centrare solo il contenuto (utilizzato nel login) */
+/* Div per far centrare solo il contenuto (utilizzato nel login) (utilizzato su una cosa)*/
 .width{
-    width: fit-content;
+    max-width: 650px;
 }
 
 
-/* Immagine di sfondo della pagina di login */
-.back-login{
-    background-image: url(/img/background-login.png);
+/* Immagine di sfondo della pagina di login (utilizzato su una cosa)*/
+#back-login{
+    background-image: url('../img/background-login.png');
 }
 
 
-/* Cambio del colore della checkbox */
+/* Cambio del colore della checkbox (utilizzato su una cosa, per ora)*/
 .form-check-input[type=checkbox]:checked {
     background-color:black;
     border-color: black;
   }
 
-.form-check-input:hover::before{
-    background-color: yellow;
-}

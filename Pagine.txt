@@ -1,18 +1,18 @@
 Pagine:
 - Home				(index.html)
 - Layout			(layout.html)
-- Pagina Prodotti
-- Pagina Prodotto singolo
+- Pagina Prodotti		pagina con tutti i prodotti
+- Pagina Prodotto singolo	pagina del prodotto singolarmente con descrizione 
 - Carrello
 - Pagamento
 - Area Riservata cliente
 - Visualizza Ordini
-- Modifica Profilo
-- Privacy
-- Accesso Negato
+- Modifica Profilo  
+- Privacy           titolo e testo
+- Accesso Negato    pagina errore 403 uguale alla 404
 - 404				(404.html)
-- Login
-- Registrazione
+- Login             (login.html)
+- Registrazione			(registrazione.html)
 
 Admin
 - 

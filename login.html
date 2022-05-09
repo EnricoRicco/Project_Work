@@ -30,14 +30,87 @@
     <!-- Css aggiunto-->
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body class="back-login">
+
+  <body id="back-login">
    
-    <div class="container-fluid mt-5 width bg-light p-3 rounded-5">
+    <!-- Header -->
+    <header class="sticky-top bg-white">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-md bg-link navbar-light">
+
+          <!-- Container wrapper -->
+          <div class="container-fluid w-100">
+      
+              <!-- Navbar brand -->
+              <a class="navbar-brand" href="index.html"><span class="badge bg-dark lobster">King's Store</span></a>
+      
+              <!-- Toggle button -->
+              <button class="navbar-toggler"
+                  type="button" 
+                  style="background-color: lightgrey;"
+                  data-mdb-toggle="collapse" 
+                  data-mdb-target="#navbarSupportedContent" 
+                  aria-controls="navbarSupportedContent" 
+                  aria-expanded="false" 
+                  aria-label="Toggle navigation">
+                  
+                  <i class="fas fa-bars"></i>
+              </button>
+
+              <!-- Collapsible wrapper -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav d-flex me-auto mb-2 mb-lg-0 ">
+
+                      <!-- Link -->
+                      <li class="nav-item ">
+                          <a class="nav-link active lobster " href="#">Donna</a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a class="nav-link active lobster" href="#">Uomo</a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a class="nav-link active lobster" href="#">Marche</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link active lobster" href="#">About</a>
+                    </li>
+
+                  </ul>
+          
+                  <!-- Search -->
+                  <form class="w-auto">
+                  <input type="search" class="form-control pe-0" placeholder="Cerca" aria-label="Search">
+                  </form>
+          
+              </div>
+              
+          </div>
+          
+          <!-- Icons -->
+          <ul class="navbar-nav d-flex flex-row ">
+              <li class="nav-item  me-lg-0 ms-2" >
+                  <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+              </li>
+              <li class="nav-item me-lg-0 ms-3">
+                  <a class="nav-link" href="#"><i class="far fa-user"></i></i></a>
+              </li>
+          </ul>
+
+
+      <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+    </header>
+
+    <div class="container-fluid width mt-5 bg-light p-3 rounded-5">
 
         <div class="d-flex justify-content-center">
             <span class="badge bg-dark lobster " style="font-size:35px ;">King's Store</span>
         </div>
-            <form>
+          <form>
                 <!-- Email input -->
                 <div class="form-outline mb-4 mt-3">
                 <input type="email" id="form1Example1" class="form-control" />
@@ -62,13 +135,13 @@
             
                 <div class="col">
                     <!-- Simple link -->
-                    <a href="#!">Password dimenticata?</a>
+                    <a class="underlined" href="#!">Password dimenticata?</a>
                 </div>
                 </div>
             
                 <!-- Submit button -->
                 <button type="submit" class="btn btn-dark btn-block">Accedi</button>
-            </form>
+          </form>
         </div>
     </div>
 

@@ -30,7 +30,8 @@
     <!-- Css aggiunto-->
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+
+  <body id="back-login">
    
     <!-- Header -->
     <header class="sticky-top bg-white">
@@ -104,130 +105,48 @@
         <!-- Navbar -->
     </header>
 
+    <div class="container-fluid width mt-5 bg-light p-3 rounded-5">
 
-    <!-- Footer -->
-    <footer class="bg-light text-center mt-5">
-      <!-- Grid container -->
-      <div class="container p-4">
+        <div class="d-flex justify-content-center">
+            <span class="badge bg-dark lobster mb-3" style="font-size:25px ;">Form di registrazione</span>
+        </div>
 
+        <form>
+        <!-- Username -->  
+        <div class="form-outline  mb-4">
+            <input type="text" id="form6Example1" class="form-control" />
+            <label class="form-label" for="form6Example1">Username</label>
+        </div>
+          
+        <!-- Email -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form6Example3" class="form-control" />
+          <label class="form-label" for="form6Example3">Email</label>
+        </div>
+      
+        <!-- Password -->
+        <div class="form-outline mb-4">
+          <input type="password" id="form6Example4" class="form-control" />
+          <label class="form-label" for="form6Example4">Password</label>
+        </div>
+      
+        <!-- Conferma password -->
+        <div class="form-outline mb-4">
+          <input type="password" id="form6Example6" class="form-control" />
+          <label class="form-label" for="form6Example6">Conferma password</label>
+        </div>
+      
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8"  />
+          <label class="form-check-label" for="form6Example8"> Termini e condizioni della <a class="underlined" href="###">privacy</a></label>
+        </div>
+      
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-dark btn-block mb-4">Registrati</button>
+        </form>
 
-
-        <!-- Section: Text -->
-        <section class="mb-4">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            distinctio earum repellat quaerat voluptatibus placeat nam,
-            commodi optio pariatur est quia magnam eum harum corrupti dicta,
-            aliquam sequi voluptate quas.
-          </p>
-        </section>
-        <!-- Section: Text -->
-
-
-        <!-- Section: Links -->
-        <section class="">
-          <!--Grid row-->
-          <div class="row">
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
-
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <a href="#!" class="text-dark">Link 1</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Link 2</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Link 3</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Link 4</a>
-                </li>
-              </ul>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
-
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <a href="#!" class="text-dark">Link 1</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Link 2</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Link 3</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Link 4</a>
-                </li>
-              </ul>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
-
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <a href="#!" class="text-dark">Link 1</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Link 2</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Link 3</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Link 4</a>
-                </li>
-              </ul>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
-
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <a href="#!" class="text-dark">Link 1</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Link 2</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Link 3</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Link 4</a>
-                </li>
-              </ul>
-            </div>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </section>
-        <!-- Section: Links -->
-
-      </div>
-      <!-- Grid container -->
-
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2020 Copyright:
-        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-      </div>
-      <!-- Copyright -->
-
-    </footer>
-    <!-- Footer -->
+    </div>
 
     <!-- MDB -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
