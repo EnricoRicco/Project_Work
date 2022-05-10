@@ -8,8 +8,8 @@ Pagine:
 - Area Riservata cliente
 - Visualizza Ordini
 - Modifica Profilo  
-- Privacy           titolo e testo
-- Accesso Negato    pagina errore 403 uguale alla 404
+- Privacy           (privacy.html)
+- Accesso Negato    (403.html)
 - 404				(404.html)
 - Login             (login.html)
 - Registrazione			(registrazione.html)
