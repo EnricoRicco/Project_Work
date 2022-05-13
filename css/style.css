@@ -45,6 +45,9 @@
     max-width: 650px;
 }
 
+.logo{
+    width: 45px;
+}
 
 /* Immagine di sfondo della pagina di login (utilizzato su una cosa)*/
 #back-login{

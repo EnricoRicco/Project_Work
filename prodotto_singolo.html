@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>King's Store</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/SSC_Napoli_2007.ico" type="image/x-icon" />
+
+
+    <!-- Font Lobster-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Prompt:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <!-- Css aggiunto-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/site.css">
+
+  </head>
+  <body>
+   
+    <!-- Header -->
+    <header class="sticky-top bg-white">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-link navbar-light">
+
+            <!-- Container wrapper -->
+            <div class="container-fluid w-100">
+        
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="index.html">
+                  
+                  <span class="badge bg-dark lobster">
+                    <!--<img src="img/logo.png" class="logo" alt="logo">-->
+                    King's Store</span>
+                </a>
+        
+                <!-- Toggle button -->
+                <button class="navbar-toggler"
+                    type="button" 
+                    style="background-color: lightgrey;"
+                    data-mdb-toggle="collapse" 
+                    data-mdb-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav d-flex me-auto mb-2 mb-lg-0 ">
+
+                          <!-- Link -->
+                          <li class="nav-item ">
+                              <a class="nav-link active lobster " href="#">Donna</a>
+                          </li>
+
+                          <li class="nav-item">
+                              <a class="nav-link active lobster" href="#">Uomo</a>
+                          </li>
+
+                          <li class="nav-item">
+                              <a class="nav-link active lobster" href="#">Marche</a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link active lobster" href="#">Privacy</a>
+                        </li>
+
+                      </ul>
+              
+                      <!-- Search -->
+                      <form class="w-auto">
+                      <input type="search" class="form-control pe-0" placeholder="Cerca" aria-label="Search">
+                      </form>
+                </div>
+              
+                
+            </div>
+            
+            <!-- Icons -->
+            <ul class="navbar-nav d-flex flex-row ">
+                <li class="nav-item  me-lg-0 ms-2" >
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+                <li class="nav-item me-lg-0 ms-3">
+                    <a class="nav-link" href="#"><i class="far fa-user"></i></i></a>
+                </li>
+            </ul>
+
+
+        <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    </header>
+
+    <div>
+        
+        <div class="super_container">
+            <header class="header" style="display: none;">
+                <div class="header_main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
+                                <div class="header_search">
+                                    <div class="header_search_content">
+                                        <div class="header_search_form_container">
+                                            <form action="#" class="header_search_form clearfix">
+                                                <div class="custom_dropdown">
+                                                    <div class="custom_dropdown_list">
+                                                        <span class="custom_dropdown_placeholder clc">All Categories</span> <i class="fas fa-chevron-down"></i>
+                                                        <ul class="custom_list clc">
+                                                            <li><a class="clc" href="#">All Categories</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="single_product">
+                <div class="container-fluid" style=" background-color: #fff; padding: 11px;">
+                    <div class="row">
+                        <div class="col-lg-5 order-lg-1 order-2">
+                            <div class="row">
+                                <div class="col-lg-12 order-lg-12 order-12">
+                                    <div class="image_selected">
+                                        <img id="immagineSelezionata" src="img/orologio2.png" style="max-height: 100%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                
+                                <!--     for (ho aggiunto il bordo)    -->
+
+                                    <div class="col-4 border border-1">
+                                        <img class="immagineSingola" onclick="change_image(this)" src="img/orologio2.png" style="width:100%">
+                                    </div>
+
+                                    <div class="col-4 border border-1">
+                                        <img class="immagineSingola" onclick="change_image(this)" src="img/orologio2.png" style="width:100%">
+                                    </div>
+
+                                    <div class="col-4 border border-1">
+                                        <img class="immagineSingola" onclick="change_image(this)" src="img/orologio2.png" style="width:100%">
+                                    </div>
+
+
+                                <!--     for    -->
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7 order-3">
+                            <div class="product_description">
+                                <div class="product_name mt-3">AR42069 ARMANI</div>
+                                <div class="product-rating"><span class="badge badge-success"><i class="fa fa-star"></i> 4.5 Star</span> <span class="rating-review">35 Ratings & 45 Reviews</span></div>
+                                <div> <span class="product_price">€150</span> <strike class="product_discount"> </strike> </div>
+                                <hr class="singleline">
+
+                            </div>
+
+
+                            <div class="container p-0">
+                                <div class="row ">
+                              
+                                  <div class="col-lg-2 col-md-6 mt-2">
+                                    <B>SKU:</B> <br> 111111
+                                  </div>
+                              
+                                  <div class="col-lg-2 col-md-6 mt-2">
+                                    <B>PESO:</B> <br> 500gr
+                                  </div>
+                              
+                                  <div class="col-lg-2 col-md-6 mt-2">
+                                    <B>MOVIMENTO:</B> <br> automatico
+                                  </div>
+                              
+                                  <div class="col-lg-2 col-md-6 mt-2">
+                                    <B>RESISTENZA ACQUA:</B> <br> 3ATM
+                                  </div>
+                              
+                                  <div class="col-lg-2 col-md-6 mt-2">
+                                    <B>COLORE QUADRANTE:</B> <br> Arancione
+                                  </div>
+                              
+                                  <div class="col-lg-2 col-md-6 mt-2">
+                                    <B>SESSO:</B> <br> Femmina
+                                  </div>
+                              
+                                </div>
+                              </div>
+
+                              <div class="container mt-4 p-0">
+                                <div class="row ">
+                              
+                                  <div class="col-lg-2 col-md-6 mt-2">
+                                    <b>COLORE CINTURINO:</b> <br> Arancione
+                                  </div>
+                              
+                                  <div class="col-lg-2 col-md-6 mt-2">
+                                    <b>COLORE CASSA:</b> <br> Arancione
+                                  </div>
+                              
+                                  <div class="col-lg-2 col-md-6 mt-2">
+                                    <b>Materiale cinturino:</b> <br> Acciaio
+                                  </div>
+                              
+                                  <div class="col-lg-2 col-md-6 mt-2">
+                                   <b>Materiale cassa:</b> <br> Acciaio
+                                  </div>
+                              
+                                  <div class="col-lg-2 col-md-12 mt-2">
+                                    <b>Display:</b> <br> Analogico
+                                  </div>
+                              
+                                </div>
+                              </div>
+
+
+                              <div class="container mt-4">
+                                    <p> 
+                                      Pellentesque mattis, purus feugiat consectetur porttitor, tortor mauris molestie nibh, vel mattis leo mauris eget quam. 
+                                      Vestibulum congue ipsum eu mattis consectetur. 
+                                      Morbi nulla quam, gravida at diam tempor, viverra iaculis nulla. 
+                                      Maecenas dignissim sagittis erat vitae facilisis. Donec eu ex vitae sem suscipit fermentum vitae sit amet risus. 
+                                      Nulla facilisi. 
+                                      Quisque in neque commodo, imperdiet ipsum vel, blandit nibh. 
+                                      Fusce tristique efficitur diam, ut vulputate nunc. Maecenas in augue tempor, viverra dui porttitor, mattis turpis. 
+                                      Etiam a elementum nibh. Nulla condimentum interdum turpis. Aliquam suscipit ullamcorper placerat. 
+                                      Integer finibus finibus odio, sed commodo augue ultrices eget. Cras a lorem.
+                                    </p>
+
+                              </div>
+
+
+                            <hr class="singleline">
+                            <div class="row">
+                                <div class="col-xs-6 mt-3" style="margin-left: 13px;">
+                                    <div class="product_quantity">
+                                        <span>QTY: </span> <input id="quantity_input" type="number" pattern="[0-9]*" value="1">
+                                        <div class="quantity_buttons">
+                                            <div id="quantity_inc_button" class="quantity_inc quantity_control"><i class="fas fa-chevron-up"></i></div>
+                                            <div id="quantity_dec_button" class="quantity_dec quantity_control"><i class="fas fa-chevron-down"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="###">
+                                <button type="button" class="btn btn-dark btn-rounded mt-3" data-mdb-ripple-color="#ffffff"> Aggiungi al carrello </button>
+                            </a>
+
+                            <a href="###">
+                                <button type="button" class="btn btn-dark btn-rounded mt-3" data-mdb-ripple-color="#ffffff">Ritorna ai prodotti</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center mt-5">
+        <!-- Grid container -->
+        <div class="container p-4">
+
+
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            distinctio earum repellat quaerat voluptatibus placeat nam,
+            commodi optio pariatur est quia magnam eum harum corrupti dicta,
+            aliquam sequi voluptate quas.
+            </p>
+        </section>
+        <!-- Section: Text -->
+
+
+        <!-- Section: Links -->
+        <section class="">
+            <!--Grid row-->
+            <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+
+                <ul class="list-unstyled mb-0">
+                <li>
+                    <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">Link 4</a>
+                </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+
+                <ul class="list-unstyled mb-0">
+                <li>
+                    <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">Link 4</a>
+                </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+
+                <ul class="list-unstyled mb-0">
+                <li>
+                    <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">Link 4</a>
+                </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+
+                <ul class="list-unstyled mb-0">
+                <li>
+                    <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">Link 4</a>
+                </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+</html>
