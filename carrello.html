@@ -1,0 +1,335 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>King's Store</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/SSC_Napoli_2007.ico" type="image/x-icon" />
+
+
+    <!-- Font Lobster-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Prompt:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <!-- Css aggiunto-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/site.css">
+  </head>
+  <body>
+   
+    <!-- Header -->
+    <header class="sticky-top bg-white">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-link navbar-light">
+
+            <!-- Container wrapper -->
+            <div class="container-fluid w-100">
+        
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="index.html"><span class="badge bg-dark lobster">King's Store</span></a>
+        
+                <!-- Toggle button -->
+                <button class="navbar-toggler"
+                    type="button" 
+                    style="background-color: lightgrey;"
+                    data-mdb-toggle="collapse" 
+                    data-mdb-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex me-auto mb-2 mb-lg-0 ">
+
+                        <!-- Link -->
+                        <li class="nav-item ">
+                            <a class="nav-link active lobster " href="#">Donna</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active lobster" href="#">Uomo</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active lobster" href="#">Marche</a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link active lobster" href="#">Privacy</a>
+                      </li>
+
+                    </ul>
+            
+                    <!-- Search -->
+                    <form class="w-auto">
+                    <input type="search" class="form-control pe-0" placeholder="Cerca" aria-label="Search">
+                    </form>
+            
+                </div>
+                
+            </div>
+            
+            <!-- Icons -->
+            <ul class="navbar-nav d-flex flex-row ">
+                <li class="nav-item  me-lg-0 ms-2" >
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+                <li class="nav-item me-lg-0 ms-3">
+                    <a class="nav-link" href="#"><i class="far fa-user"></i></i></a>
+                </li>
+            </ul>
+
+
+        <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    </header>
+
+    <section class="h-100" style="background-color: #eee;">
+    <div class="container h-100 py-5">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-10">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h3 class="fw-normal mb-0 text-black">Carrello</h3>
+                </div>
+                
+                <!-- For  -->
+
+
+                    <div class="card rounded-3 mb-4">
+                        <div class="card-body p-4">
+                            <div class="row d-flex justify-content-between align-items-center">
+                                <div class="col-md-2 col-lg-2 col-xl-2">
+                                    <img src="img/orologio2.png"
+                                         class="img-fluid rounded-3" alt="item.Prodotto.Nome">
+                                </div>
+                                <div class="col-md-3 col-lg-3 col-xl-3">
+                                    <p class="lead fw-normal mb-2">Armani 42069</p>
+                                </div>
+                                <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                    <button class="btn btn-link px-2"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
+
+                                    <input id="form1" min="0" name="quantity" value="@item.Quantita" type="number"
+                                           class="form-control form-control-sm" />
+
+                                    <button class="btn btn-link px-2"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                    <h5 class="mb-0">150$</h5>
+                                </div>
+                                <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                    <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card rounded-3 mb-4">
+                        <div class="card-body p-4">
+                            <div class="row d-flex justify-content-between align-items-center">
+                                <div class="col-md-2 col-lg-2 col-xl-2">
+                                    <img src="img/orologio2.png"
+                                         class="img-fluid rounded-3" alt="item.Prodotto.Nome">
+                                </div>
+                                <div class="col-md-3 col-lg-3 col-xl-3">
+                                    <p class="lead fw-normal mb-2">Armani 42069</p>
+                                </div>
+                                <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                    <button class="btn btn-link px-2"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
+
+                                    <input id="form1" min="0" name="quantity" value="@item.Quantita" type="number"
+                                           class="form-control form-control-sm" />
+
+                                    <button class="btn btn-link px-2"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                    <h5 class="mb-0">150$</h5>
+                                </div>
+                                <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                    <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+
+                <!-- For  -->
+
+
+                <a asp-controller="Ordine" asp-action="Create" class="btn btn-warning btn-lg">Vai al pagamento</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-light text-center mt-5">
+      <!-- Grid container -->
+      <div class="container p-4">
+
+
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            distinctio earum repellat quaerat voluptatibus placeat nam,
+            commodi optio pariatur est quia magnam eum harum corrupti dicta,
+            aliquam sequi voluptate quas.
+          </p>
+        </section>
+        <!-- Section: Text -->
+
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>

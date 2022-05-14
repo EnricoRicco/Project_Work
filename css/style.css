@@ -14,7 +14,7 @@
     font-weight: bolder;
 }
 
-/* classe per venire sottolineati i link al passaggio del mojuse */
+/* classe per venire sottolineati i link al passaggio del mouse */
 .underlined:hover{
     text-decoration: underline;
 }
@@ -45,6 +45,7 @@
     max-width: 650px;
 }
 
+/* Grandezza del logo (non utilizzato)*/
 .logo{
     width: 45px;
 }
@@ -61,3 +62,10 @@
     border-color: black;
   }
 
+
+/* eliminare l'hr nella pagina "pagina_prodotti.html" */
+@media screen and (max-width: 767px) {
+    .delete{
+        display: none;
+    }
+  }

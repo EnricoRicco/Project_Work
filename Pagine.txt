@@ -1,9 +1,9 @@
 Pagine:
 - Home				(index.html)
 - Layout			(layout.html)
-- Pagina Prodotti		pagina con tutti i prodotti                 
-- Pagina Prodotto singolo	pagina del prodotto singolarmente con descrizione       (prodotto/details modifica)
-- Carrello                                                                          (carrelo/index modifica)
+- Pagina Prodotti		(pagina_prodotti.html)                
+- Pagina Prodotto singolo	       (prodotto_singolo.html)
+- Carrello                                                                          (Fatta)
 - Pagamento                                                                         (ordine/create.cshtml modifica)
 - Visualizza Ordini                                                                 (???)
 - Modifica Profilo                                                                  (Fatta)
