@@ -1,0 +1,5 @@
+-Nella pagina index.html il font dovrebbe essere ingrandito un pò(?) nei dispositivi piccoli
+
+-Esiste una classe "text-uppercase", bisogna sapere dove utilizzarla
+
+-Generalmente il font deve essere ingrandito dappertutto
